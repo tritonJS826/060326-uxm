@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(62, 22, 8);
+  color: rgb(230, 12, 12);
+  border: none;
+  border-radius: 8px;
+}
+
+.paragraph {
+  color: red;
+}
+
+h1 {
+  color: green;
+}
+
+p {
+  color: violet;
+  width: 500px;
+  border: 1px solid black;
+}
+
+.blue-paragraph {
+  color: blue;
+}
+
+#unique-paragraph {
+  color: brown;
+}
+
+button[type="button"] {
+
+}

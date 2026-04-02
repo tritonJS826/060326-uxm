@@ -1,0 +1,14 @@
+/* * {
+    margin: 10px;
+    padding: 0;
+} */
+
+.underline {
+    text-decoration: underline;
+}
+
+.fancy-font {
+  font-family: "Playwrite DK Uloopet Guides", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
