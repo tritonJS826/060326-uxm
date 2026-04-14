@@ -20,6 +20,13 @@
            /* top right bottom left */
     /* top&bottom right&left */
     margin: 20px auto;
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto; */
+
+    width: 20dvw;
+    height: 50dvh;
 }
 
 .li {
@@ -33,4 +40,7 @@
 
     background-color: rgba(255, 1, 17, 0.6);
     background-color: #aedb4f90;
+
+    /* color: #2498db1f;
+    color: rgba(38, 140, 210, 0.1); */
 }
