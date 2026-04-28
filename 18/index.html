@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/" method="post" autocomplete="on">
+        <label for="text">text</label>
+        <br>
+        <input type="text" id="text" name="my-text" value="Viktar">
+        
+        <br>
+
+        <label for="textarea">textarea</label>
+        <br>
+        <textarea name="my-textarea" id="textarea" placeholder="your text!!!!"></textarea>
+
+        <br>
+
+        <input type="button" value="Click me! Im input">
+        
+        <br>
+        
+        <fieldset>
+
+            <legend>Block 1</legend>
+
+            <label for="select">text</label>
+            <select name="" id="select">
+                <option value="1">first</option>
+                <option value="2">second</option>
+                <option value="3">third</option>
+            </select>
+            
+    
+            <br>
+    
+            <button type="reset" >Reset!</button>
+            <button type="submit">Submit!</button>
+
+        </fieldset>
+
+        <input type="checkbox" id="agree">
+        <label for="agree">Я согласен с условиями использования</label>
+
+        <div>
+            <input type="radio" id="huey" name="drone" value="huey" checked />
+            <label for="huey">Huey</label>
+        </div>
+
+        <div>
+            <input type="radio" id="dewey" name="drone" value="dewey" />
+            <label for="dewey">Dewey</label>
+        </div>
+
+        <div>
+            <input type="radio" id="louie" name="drone" value="louie" />
+            <label for="louie">Louie</label>
+        </div>
+
+        <label for="number">Number input</label>
+        <input type="number" name="my-favorite-number" id="number" value="155" max="200" min="0">
+
+        <label for="email">Email input</label>
+        <input type="email" name="" id="email" required>
+
+        <label for="password">Password</label>
+        <input type="password" name="" id="password">
+
+        <label for="file">File input</label>
+        <input type="file" name="" id="file">
+
+        <label for="date">Date input</label>
+        <input type="date" name="" id="date">
+
+        <label for="time">Date time</label>
+        <input type="time" name="" id="time">
+
+        <label for="color">Color input</label>
+        <input type="color" name="" id="color">
+
+    </form>
+</body>
+</html>
