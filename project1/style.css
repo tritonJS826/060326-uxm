@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-between;
+  padding: 4px 100px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+  height: 28px;
+  margin-right: 28px;
+  margin-bottom: 2px;
+}
+
+.navigation-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.navigation-button {
+  height: 56px;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 0 16px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right-regular {
+  display: flex;
+  gap: 8px;
+}
+
+.header-right-regular-button {
+  height: 32px;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 8px 16px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.header-right-sign-up {
+  padding: 0 16px;
+  border-radius: 9999px;
+  line-height: 16px;
+  width: 92px;
+  height: 36px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 100px;
+}
+.heroDescription {
+}
+.heroImage {
+}
+.heroDescriptionTitle {
+}
+.heroDescriptionText {
+}
+.heroDescriptionButton {
+}
