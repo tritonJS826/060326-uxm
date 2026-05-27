@@ -1,0 +1,58 @@
+.parent-1 {
+    border: 1px solid red;
+    height: 5000px;
+    position: relative;
+}
+
+.child-1 {
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+}
+
+.child-2 {
+    border: 1px solid green;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    z-index: 2;
+}
+
+
+
+.child-3 {
+    border: 1px solid rgb(202, 15, 253);
+    background-color: rgb(128, 0, 122);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 200px;
+    z-index: 15;
+}
+
+.child-4 {
+    border: 1px solid rgb(22, 129, 32);
+    width: 100px;
+    height: 100px;
+}
+
+.child-5 {
+    border: 3px solid rgb(129, 72, 22);
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 44px;
+    bottom: 44px;
+}
+
+.child-6 {
+    border: 3px solid rgb(129, 72, 22);
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
