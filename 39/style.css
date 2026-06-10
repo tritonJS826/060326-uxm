@@ -41,3 +41,29 @@
 .list:lang(en) {
     background-color: blueviolet;
 }
+
+button {
+    background-color: red;
+
+    &:not(.special) {
+        background-color: gold;
+    }
+}
+
+.link {
+    &:link {
+        color: aqua;
+    }
+
+    &:visited {
+        color: gold;
+    }
+
+    &:hover {
+        color: green;
+    }
+
+    &:active {
+        color: blueviolet;
+    }
+}
