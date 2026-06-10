@@ -11,6 +11,19 @@
     background-color: green;
 }
 
+.button2 {
+    background-color: red;
+
+    &:hover {
+        background-color: blue;
+        cursor: pointer;
+    }
+
+    &:active {
+        background-color: green;
+    }
+}
+
 .list {
     background-color: bisque;
     border-bottom: 1px solid black;
