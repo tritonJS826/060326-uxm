@@ -13,6 +13,7 @@
     color: red;
 }
 
+
 .title::after {
     content: " ⭐";
     color: red;
