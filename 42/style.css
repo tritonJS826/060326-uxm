@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 3s ease;
+}
+
+.title {
+
+}
+
+.title::before {
+    content: "⭐ ";
+    color: red;
+}
+
+.title::after {
+    content: " ⭐";
+    color: red;
+}
+
+.text {
+    &::first-letter {
+        font-size: 40px;
+        font-weight: 900;
+        color: red;
+    }
+    
+    &::first-line {
+        text-decoration: underline;
+    }
+
+    &::selection {
+        background-color: green;
+        color: white;
+    }
+}
+
+
+.button {
+    background-color: #3498db;
+    color:white;
+    width: 100px;
+    height: 100px;
+    transition: background-color 0.5s ease, width 0.5s ease;
+    margin-bottom: 300px;
+}
+
+.button:hover {
+    background-color: #e74c3c;
+    width: 200px;
+    height: 200px;
+}
+
